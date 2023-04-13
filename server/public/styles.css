@@ -1,0 +1,70 @@
+.home-carousel {
+  margin: 0 30px auto;
+}
+
+.home-carousel-img {
+  width: 14rem;
+}
+
+.carousel-arrows {
+  margin-top: 8.5rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+  color: black;
+  background-color: transparent;
+}
+
+.icon {
+  font-size: 1rem;
+}
+
+.vsignup-c {
+  background-color: #ececec;
+  height: 35rem;
+}
+
+.vsignin-c {
+  background-color: #ececec;
+  width: 23rem;
+  height: 25rem;
+}
+
+.vsignup-input,
+.vsignin-input {
+  color: #5a5a5a;
+  width: 20rem;
+  border-radius: 5rem;
+  outline: none;
+  border: none;
+  height: 2.8rem;
+  padding-left: 2rem;
+}
+
+.vsignup-input:focus::placeholder,
+.vsignin-input:focus::placeholder {
+  color: transparent;
+}
+
+.register {
+  color: #fff;
+  font-size: 1.2rem;
+  width: 10rem;
+  height: 2rem;
+  background-color: #046290;
+  border-style: none;
+  border-radius: 5rem;
+}
+
+.register:active,
+.v-sign-up:active,
+.v-signout:active,
+.v-signin:active {
+  position: relative;
+  bottom: 0.4rem;
+}
+
+.register:focus {
+  outline: none;
+}
