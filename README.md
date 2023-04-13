@@ -1,4 +1,4 @@
-# Code template
+# Divergent Code Test
 
 ## :gear: setup
 side note: after cloning repository in VS Code, type the following in the terminal. Only need to do this once after repo is cloned.
