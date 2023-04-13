@@ -1,42 +1,25 @@
-# EscapeRoom
+# Code template
 
 ## :gear: setup
 side note: after cloning repository in VS Code, type the following in the terminal. Only need to do this once after repo is cloned.
 
 ```shell
-npm i
 
-# OR YOU CAN USE THE FOLLOWING
+`cp .env.example .env`
+`sudo service postgresql start` (starts postgreSQL)
+`createdb divergentCode`
+`pg web --db=divergentCode` (go to http://localhost:8081/ on browser to load database)
 
-npm install
+  (Go to the .env file and change the parts that say `changeMe` to `divergentCode`.)
+
 ```
 
 ## :running: running code
 
-If using `React` to build components, must `run build` or `run dev`. Do this by typing the following in another terminal:
 ```shell
-npm run dev
-# THIS RUNS DEV (PAGE REFRESHES EACH TIME NEW CODE IS SAVED)
+  on another terminal,
 
-
-npm run build
-# THIS 'RUNS THE BUILD' ONCE. IF NEW CODE IS SAVED, YOU MUST USE 'npm run build' AGAIN TO SEE UPDATES MADE
-```
-## building components
-
-- Add a new file inside the `components` directory and rename it to a `nameOfFile.jsx`
-- Inside of the `component`, import `React` at the top.
-
-```shell
-
-import React from 'react';
-
-function FUNCTION() {
-  return (
-    <div>
-      content here
-    </div>
-  )
-}
-
+ `npm i` (installs all dependencies and packages)
+ `npm run db:import` (imports data.sql into database)
+ `npm run dev`
 ```
